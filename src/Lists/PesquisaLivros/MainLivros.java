@@ -1,4 +1,4 @@
-package PesquisaLivros;
+package Lists.PesquisaLivros;
 
 import java.util.Scanner;
 

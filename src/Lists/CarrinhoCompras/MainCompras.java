@@ -1,4 +1,4 @@
-package CarrinhoCompras;
+package Lists.CarrinhoCompras;
 
 import java.util.Scanner;
 

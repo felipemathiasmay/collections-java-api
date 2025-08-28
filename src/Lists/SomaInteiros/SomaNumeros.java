@@ -1,4 +1,4 @@
-package SomaInteiros;
+package Lists.SomaInteiros;
 
 import java.util.ArrayList;
 import java.util.Collections;

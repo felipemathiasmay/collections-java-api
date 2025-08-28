@@ -1,4 +1,4 @@
-package ListaDeTarefas;
+package Lists.ListaDeTarefas;
 
 import java.util.Scanner;
 

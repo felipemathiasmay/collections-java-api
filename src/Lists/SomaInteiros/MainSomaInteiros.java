@@ -1,6 +1,4 @@
-package SomaInteiros;
-
-import PesquisaLivros.CatalogoLivros;
+package Lists.SomaInteiros;
 
 import java.util.Scanner;
 
