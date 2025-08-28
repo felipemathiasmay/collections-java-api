@@ -23,6 +23,8 @@ public class MainSomaInteiros {
             System.out.println("3. Maior número da lista");
             System.out.println("4. Menor número da lista");
             System.out.println("5. Listar os números");
+            System.out.println("6. Listar os números em ordem ascendente");
+            System.out.println("7. Listar os números em ordem descendente");
             System.out.println("0. Sair");
             System.out.println("Opção desejada:");
             optionMenu = scanner.nextInt();
@@ -51,6 +53,12 @@ public class MainSomaInteiros {
                     break;
                 case 5:
                     System.out.println("Números na lista: " + somaNumeros.exibirNumeros());
+                    break;
+                case 6:
+                    System.out.println("Ordenação ascendente: " + somaNumeros.ordenarAscendente());
+                    break;
+                case 7:
+                    System.out.println("Ordenação descendente: " + somaNumeros.ordenarDescendente());
                     break;
                 case 0:
                     System.out.println("Saindo do programa!");

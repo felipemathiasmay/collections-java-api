@@ -1,6 +1,7 @@
 package SomaInteiros;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class SomaNumeros {
@@ -72,5 +73,30 @@ public class SomaNumeros {
             throw new RuntimeException("A lista está vazia!");
         }
     }
+
+    //Ordena os números da lista em ordem ascendente usando a interface Comparable e a class Collections.
+    public List<Integer> ordenarAscendente(){
+        List<Integer> ascendingOrder = new ArrayList<>(this.intNumbers);
+
+        if (!intNumbers.isEmpty()) {
+            Collections.sort(ascendingOrder);
+            return ascendingOrder;
+        } else {
+            throw new RuntimeException("A lista está vazia!");
+        }
+    }
+
+    // Ordena os números da lista em ordem descendente usando um Comparable e a class Collections.
+    public List<Integer> ordenarDescendente(){
+        List<Integer> descendingOrder = new ArrayList<>(this.intNumbers);
+
+        if (!intNumbers.isEmpty()) {
+            descendingOrder.sort(Collections.reverseOrder());
+            return descendingOrder;
+        } else {
+            throw new RuntimeException("A lista está vazia!");
+        }
+    }
+
 
 }
